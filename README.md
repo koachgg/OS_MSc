@@ -1,4 +1,7 @@
-[1. Write a program using fork and exec commands where parent and child execute :
+1. Write a program using fork and exec commands where parent and child execute :
       - before terminating , the parent waits for the child to finish its task
-      NOTE : Only implementing via fork in this case](fork_exec.c)
+      NOTE : Only implementing via fork in this case, this would easily run on any online c compiler and Linux OS
+[Click Here](fork_exec.c)
+
+2. Create 2 programs where first program would execute fork system call and will create a child and then perform exec system call which will call the 2nd program .
 
