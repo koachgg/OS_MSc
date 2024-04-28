@@ -8,7 +8,7 @@
  - before terminating , the parent waits for the child to finish its task
 
    Note : Implementing with both fork and exec commands
-   [Click Here]()
+   [Click Here](forkExec.c)
 
 3. Create 2 programs where first program would execute fork system call and will create a child and then perform exec system call which will call the 2nd program .
    [Click Here](fork_and_exec.c)
