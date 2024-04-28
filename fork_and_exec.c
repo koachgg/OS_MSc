@@ -32,3 +32,11 @@ int main() {
 
 
 // Program 2 : Second Program to be Executed by the Child
+
+#include <stdio.h>
+
+int main() {
+    printf("Hello from the second program! PID: %d\n", getpid());
+    return 0; // Exit successfully
+}
+
