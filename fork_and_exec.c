@@ -34,8 +34,10 @@ int main() {
 // Program 2 : Second Program to be Executed by the Child
 
 #include <stdio.h>
+#include <unistd.h>
+#include <sys/wait.h>
 
-int main() {
+int main(char *argv[]) {
     printf("Hello from the second program! PID: %d\n", getpid());
     return 0; // Exit successfully
 }
